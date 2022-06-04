@@ -125,7 +125,7 @@
 
                     </li>
                     <li class="nav-item ">
-                        <a href="manage_department.php" class="nav-link"><i class="
+                        <a href="<?= base_url('manage-department.php') ?>" class="nav-link"><i class="
                                 icon-table2"></i> <span>Manage Department</span></a>
 
 
