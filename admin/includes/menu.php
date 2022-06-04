@@ -78,7 +78,7 @@
                 <div class="card-body">
                     <div class="media">
                         <div class="mr-3">
-                            <a href="#"><img src="<?= base_url('global_assets/images/logo4.jpg') ?>" width="38" height="38" class="rounded-circle" alt=""></a>
+                            <a href="#"><img src="<?php echo base_url('global_assets/images/logo4.jpg') ?>" width="38" height="38" class="rounded-circle" alt=""></a>
                         </div>
 
                         <div class="media-body">
@@ -100,7 +100,7 @@
                     <!-- Main -->
                     <li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link active">
+                        <a href="<?= base_url('index.php') ?>" class="nav-link active">
                             <i class="icon-home4"></i>
                             <span>
 									Dashboard
@@ -108,7 +108,7 @@
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a href="manage_admin.php" class="nav-link"><i class="
+                        <a href="<?= base_url('manage-admin.php') ?>" class="nav-link"><i class="
                                 icon-user-tie"></i> <span>Manage Admin</span></a>
 
 
@@ -119,7 +119,7 @@
 
                     </li>
                     <li class="nav-item ">
-                        <a href="manage_category.php" class="nav-link"><i class="
+                        <a href="<?= base_url('manage-category.php') ?>" class="nav-link"><i class="
                                 icon-stack2"></i> <span>Manage Category</span></a>
 
 

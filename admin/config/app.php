@@ -1,5 +1,6 @@
 <?php
 
+ob_start();
 session_start();
 mysqli_report(MYSQLI_REPORT_OFF);
 
@@ -23,6 +24,7 @@ function validateInput($dbcon, $input) {
 function redirect($message, $page, $type = null) {
     $redirectTo = SITE_URL.$page;
     $_SESSION['message'] = "$message";
+    $_SESSION['msg_type'] = "$type";
     header("Location: $redirectTo");
     exit(0);
 }
