@@ -131,7 +131,7 @@
 
                     </li>
                     <li class="nav-item ">
-                        <a href="manage_book.php" class="nav-link"><i class="
+                        <a href="<?= base_url('manage-book.php') ?>" class="nav-link"><i class="
                                         icon-book2"></i> <span>Manage Book</span></a>
 
                     </li>
