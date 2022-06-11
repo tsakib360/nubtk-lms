@@ -9,7 +9,7 @@ class BookController
 
     public function allBooks() {
         $data = [];
-        $getData = "SELECT *, categories.name AS category_name, departments.short_name AS department_short_name FROM books LEFT JOIN categories ON categories.id = books.category_id LEFT JOIN departments ON categories.id = books.department_id";
+        $getData = "SELECT *, books.id AS id, books.name AS name, categories.name AS category_name, departments.short_name AS department_short_name FROM books LEFT JOIN categories ON categories.id = books.category_id LEFT JOIN departments ON departments.id = books.department_id";
         $result = $this->conn->query($getData);
         while ($row = mysqli_fetch_assoc($result)) {
             $data[] = $row;
@@ -18,7 +18,7 @@ class BookController
     }
 
     public function fetchBook($id) {
-        $getData = "SELECT *, books.id AS id, categories.name AS category_name, departments.short_name AS department_short_name FROM books LEFT JOIN categories ON categories.id = books.category_id LEFT JOIN departments ON categories.id = books.department_id WHERE books.id = '$id' LIMIT 1";
+        $getData = "SELECT *, books.id AS id, categories.name AS category_name, departments.short_name AS department_short_name FROM books LEFT JOIN categories ON categories.id = books.category_id LEFT JOIN departments ON departments.id = books.department_id WHERE books.id = '$id' LIMIT 1";
         $result = $this->conn->query($getData);
         if($result->num_rows > 0) {
             $data = $result->fetch_assoc();

@@ -1,0 +1,32 @@
+/* navbar */
+.navbar{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}
+ 
+/* contact  */
+.height{
+    height: 70vh;
+}
+
+.contact-input{
+   border-color: gray!important;
+}
+.contact-input:focus{
+    box-shadow: none !important;
+}
+.special-input{
+    width: 49%!important;
+}
+.btn{
+    border-color: #960296!important;
+    color: #960296!important;
+}
+.btn:hover{
+    color: white!important;
+    background-image:linear-gradient(to right,#1e304f,#960296);
+    border-image:linear-gradient(to right,#1e304f,#960296);
+}
+/* footer  */
+.footer{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}

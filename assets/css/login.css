@@ -1,0 +1,42 @@
+/* navbar */
+.navbar{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}
+ 
+/* login  */
+.login{
+    background:url('../images/Login/login.bg.jpg');
+  background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+}
+.font{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+
+
+/* register */
+.register{
+    background:url('../images/Login/register.jpg');
+      background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;  
+}
+
+.btn{
+    border-color: #960296!important;
+    color: #960296!important;
+}
+.btn:hover{
+    color: white!important;
+    background-image:linear-gradient(to right,#1e304f,#960296);
+    border-image:linear-gradient(to right,#1e304f,#960296);
+}
+
+/* footer  */
+.footer{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}

@@ -1,0 +1,38 @@
+/* navbar */
+.navbar{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}
+
+/* all books  */
+.card{
+    border: 0px !important;
+}
+.card:hover{
+        border: 1px solid gray;
+        box-shadow: 3px 3px 10px gray;
+}
+.heading{
+    color:#1e304f;
+    font-size: 4em;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+  }
+  .span{
+      color: #960296;
+  }
+/* button  */
+.btn{
+    border-color: #960296!important;
+    color: #960296!important;
+}
+.btn:hover{
+    color: white!important;
+    background-image:linear-gradient(to right,#1e304f,#960296);
+    border-image:linear-gradient(to right,#1e304f,#960296);
+}
+
+/* footer  */
+.footer{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}

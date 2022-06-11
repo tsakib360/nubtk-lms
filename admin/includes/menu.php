@@ -114,7 +114,7 @@
 
                     </li>
                     <li class="nav-item">
-                        <a href="manage_user.php" class="nav-link"><i class="
+                        <a href="<?= base_url('manage-user.php') ?>" class="nav-link"><i class="
                                 icon-users"></i> <span>Manage User</span></a>
 
                     </li>
@@ -137,7 +137,7 @@
                     </li>
 
                     <li class="nav-item ">
-                        <a href="manage_request.php" class="nav-link"><i class="
+                        <a href="<?= base_url('manage-request.php') ?>" class="nav-link"><i class="
 
                                       icon-eye8"></i> <span>Manage Request</span></a>
 

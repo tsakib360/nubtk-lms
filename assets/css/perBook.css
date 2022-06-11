@@ -1,0 +1,34 @@
+/* navbar */
+.navbar{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}
+
+.detail{
+    color: #1e304f;
+    border: 1px solid #1e304f;
+    border-radius: 50%;
+    padding: 6px;
+}
+.detail:hover{
+    background-color: #960296;
+   color: white;
+   border: 1px solid #960296;
+    transform: scale(1.2);
+}
+
+.detailHeading{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}
+.btn{
+    border-color: #960296!important;
+    color: #960296!important;
+}
+.btn:hover{
+    color: white!important;
+    background-image:linear-gradient(to right,#1e304f,#960296);
+    border-image:linear-gradient(to right,#1e304f,#960296);
+}
+/* footer  */
+.footer{
+    background-image:linear-gradient(to right,#1e304f,#960296);
+}
